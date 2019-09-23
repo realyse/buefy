@@ -50,7 +50,7 @@ export default {
         if (index >= 0) {
             this.$parent.tabItems.splice(index, 1)
         }
-         this.$parent.refreshSlots()
+        this.$parent.refreshSlots()
     },
     render(createElement) {
         // if destroy apply v-if
